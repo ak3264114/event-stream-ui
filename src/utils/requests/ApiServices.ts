@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken } from "../CookieManager";
 
 // Backend API URL
-const API_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000";
+const API_URL = import.meta.env.VITE_BACKEND_URL || "http://18.207.96.63";
 
 // Define API Headers
 const getAuthHeaders = () => ({
